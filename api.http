@@ -1,0 +1,13 @@
+###
+GET http://localhost:8080/cars
+
+###
+POST http://localhost:8080/cars
+Content-Type: application/json
+
+{
+    "Name": "Fusca",
+    "Model": "VW",
+    "Price": 50
+}
+
